@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*back ground colour of the page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*back ground colour blue, text white, font change, padding to add border around the content 
+by 20px*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* header to take up as much width as necessary at a font size of 48px*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*create seo header in light grey*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*create in block elements within the header top right away from the margin in a padding while floating allowing it to
+stay aline with the header while still remaing in the flow of the rest of the page*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* no style type in the list (removes bullet points)*/
+.header div ul {
+    list-style-type: none;
+}
+ /*header 2px from the margin on the left*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*headers colours in the top right*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* paragraph sizing 16px*/
+p {
+    font-size: 16px;
+}
+
+/* main picture height and width sits as the background of the page behind other elements in the center*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*class: moves image in the search engine optimiaization to the left with a margin of 25px pushed from
+the right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*class: moves image in the online repuation management section to the right of the box while 
+25 px left of the margin                               */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*class: content displayed to take up at mucnh space as needed in the box
+margin 20px from left of content box with a width of 75% of the page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*class: content displayed on the right 20px padding around the content, margin 20px from the right 
+items moved below the floating elements, content floats to the right. width to take up 20% of the space remainding and height t
+to take up 100%*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* class: all white text and spaced margin 32px*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*class: HEADERS - margin 10px from bottom, text align center*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*CLASS: images takes up as much width availaible, margin 10px all around image at a max width of
+150px*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*class: content on the left of the page to be 20 px away
+ from each section below with 50px of padding around the 
+ content and a box height of 20px. Each background with a 
+ colour of blue and text in white*/ 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+ 
+/*class: each image in the left sections to be max height of 200px*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*headings in left sections to have margin of 20px from the bottom away fro the paragraphs 
+and a font size of 36px */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Class: To have a content of the footer in a pading of 30px, a clear background and text to be in the centre of the page*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*class: to have a font size of 20px*/
+.footer h2 {
+    font-size: 20px;
+}
