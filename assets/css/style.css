@@ -4,12 +4,12 @@
     margin: 0;
 }
 
-/*back ground colour of the page*/
+/*CLASS: Background colour of the page as white*/
 body {
     background-color: #d9dcd6;
 }
 
-/*back ground colour blue, text white, font change, padding to add border around the content 
+/*CLASS: Header background colour blue, text white, font change, padding border around the content 
 by 20px*/
 .header {
     padding: 20px;
@@ -17,17 +17,17 @@ by 20px*/
     background-color: #2a607c;
     color: #ffffff;
 }
-/* header to take up as much width as necessary at a font size of 48px*/
+/*CLASS: Header to take up as much width as necessary at a font size of 48px*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*create seo header in light grey*/
+/*CLASS: Create seo header in light grey*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/*create in block elements within the header top right away from the margin in a padding while floating allowing it to
+/*CLASS: Create in block elements within the header top right away from the margin in a padding while floating allowing it to
 stay aline with the header while still remaing in the flow of the rest of the page*/
 .header div {
     padding-top: 15px;
@@ -37,11 +37,11 @@ stay aline with the header while still remaing in the flow of the rest of the pa
     font-size: 20px;
 }
 
-/* no style type in the list (removes bullet points)*/
+/* CLASS: no style type in the list (removes bullet points)*/
 .header div ul {
     list-style-type: none;
 }
- /*header 2px from the margin on the left*/
+ /*CLASS: header 25px from the margin on the left*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -58,7 +58,8 @@ p {
     font-size: 16px;
 }
 
-/* main picture height and width sits as the background of the page behind other elements in the center*/
+/*CLASS: main pictures height of 800px, margin from the bottomo of 25px and width of 100%. The image sits as
+the background of the page behind other elements in the center*/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,27 +68,27 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*class: moves image in the search engine optimiaization to the left with a margin of 25px pushed from
+/*CLASS: moves image in the search engine optimiaization to the left with a margin of 25px pushed from
 the right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*class: moves image in the online repuation management section to the right of the box while 
-25 px left of the margin                               */
+/*CLASS: moves image in the online repuation management section to the right of the box while 
+25 px left of the margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*class: content displayed to take up at mucnh space as needed in the box
+/*CLASS: content displayed to take up at much space as needed in the box
 margin 20px from left of content box with a width of 75% of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*class: content displayed on the right 20px padding around the content, margin 20px from the right 
+/*CLASS: Content displayed on the right 20px padding around the content, margin 20px from the right 
 items moved below the floating elements, content floats to the right. width to take up 20% of the space remainding and height t
 to take up 100%*/
 .benefits {
@@ -100,7 +101,7 @@ to take up 100%*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* class: all white text and spaced margin 32px*/
+/*CLASS: All white text and spaced margin 32px*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,7 +116,7 @@ to take up 100%*/
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*class: HEADERS - margin 10px from bottom, text align center*/
+/*CLASS: HEADERS - margin 10px from bottom, text align center*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -151,7 +152,7 @@ to take up 100%*/
     max-width: 150px;
 }
 
-/*class: content on the left of the page to be 20 px away
+/*CLASS: content on the left of the page to be 20 px away
  from each section below with 50px of padding around the 
  content and a box height of 20px. Each background with a 
  colour of blue and text in white*/ 
@@ -182,7 +183,7 @@ to take up 100%*/
     color: #ffffff;
 }
  
-/*class: each image in the left sections to be max height of 200px*/
+/*CLASS: each image in the left sections to be max height of 200px*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -194,7 +195,7 @@ to take up 100%*/
 .social-media-marketing img {
     max-height: 200px;
 }
-/*headings in left sections to have margin of 20px from the bottom away fro the paragraphs 
+/*CLASS: Headings in left sections to have margin of 20px from the bottom away from the paragraphs 
 and a font size of 36px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -218,7 +219,7 @@ and a font size of 36px */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*class: to have a font size of 20px*/
+/*CLASS: to have a font size of 20px*/
 .footer h2 {
     font-size: 20px;
 }
