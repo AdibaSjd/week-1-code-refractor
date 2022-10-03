@@ -27,7 +27,7 @@ by 20px*/
     color: #d9dcd6;
 }
 
-/*CLASS: Create in block elements within the header top right away from the margin in a padding while floating allowing it to
+/*CLASS: Create in block elements within the header top right 20px away from the margin in a padding of 15px while floating allowing it to
 stay aline with the header while still remaing in the flow of the rest of the page*/
 .header div {
     padding-top: 15px;
