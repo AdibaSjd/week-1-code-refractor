@@ -22,7 +22,23 @@ My main issue was insuring my page fit into the catergory of a semantic layout o
 ## General info
  This is a page developed through html and later styled through CSS. The lay out of the page was used using semantic HTML elements changed from div elements enabling description to both the browser and developers looking into it. This allowed for more thought into the structure of the page and easier navigation providing meaning to the page.
 
+## Page link
 
- http://127.0.0.1:5500/index.html
 
+http://127.0.0.1:5500/index.html
+
+## MY WEB PAGE
+
+
+ ```md
+    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.36.22.png)
+    ```
+
+ ```md
+    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.34.34.png)
+    ```
+
+ ```md
+    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.36.28.png)
+    ```
 
