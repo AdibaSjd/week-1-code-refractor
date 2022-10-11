@@ -24,21 +24,10 @@ My main issue was insuring my page fit into the catergory of a semantic layout o
 
 ## Page link
 
-
-http://127.0.0.1:5500/index.html
+https://adibasjd.github.io/week-1-code-refractor/
 
 ## MY WEB PAGE
 
-
- ```md
-    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.36.22.png)
-    ```
-
- ```md
-    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.34.34.png)
-    ```
-
- ```md
-    ![alt text](assets/images/Screenshot%202022-10-10%20at%2023.36.28.png)
-    ```
-
+![](assets/images/Screenshot%202022-10-10%20at%2023.34.34.png)
+![](assets/images/Screenshot%202022-10-10%20at%2023.36.22.png)
+![](assets/images/Screenshot%202022-10-10%20at%2023.36.28.png)
